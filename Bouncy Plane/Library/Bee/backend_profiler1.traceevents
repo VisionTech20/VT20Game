@@ -1,0 +1,542 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686277215941972, "dur":3428, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277215945407, "dur":1215, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686277215946692, "dur":297, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686277215946989, "dur":495, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686277215947835, "dur":1312, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277215949148, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218582731, "dur":141, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218582872, "dur":197, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583070, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583079, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583097, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583101, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583118, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583122, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583134, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583138, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583150, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583154, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583165, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583169, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583182, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583185, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583200, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583228, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218583272, "dur":5900, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686277215947848, "dur":1318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215949171, "dur":12157, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215961705, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686277215961717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215963208, "dur":847, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686277215964068, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686277215964143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215964591, "dur":5796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686277215970392, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686277215970602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215971125, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686277215974022, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686277215974281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215974289, "dur":5498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686277215979846, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686277215980050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215980126, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686277215981785, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686277215981979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215981991, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686277215984666, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1686277215984852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215984863, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1686277215986665, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1686277215986829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277215986839, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1686277215989103, "dur":168831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216157951, "dur":99, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216162122, "dur":5867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216168047, "dur":119041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216287097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216287109, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216288588, "dur":60827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216349423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216349435, "dur":4189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216353681, "dur":97555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216451243, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216451254, "dur":111246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216562563, "dur":174701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216737273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216737284, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216738816, "dur":128580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216867405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216867416, "dur":6321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216873798, "dur":114003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216987816, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277216987838, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277216990194, "dur":73339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217063546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217063563, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217066767, "dur":1939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217068716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217068729, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217070771, "dur":359054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217429840, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217429853, "dur":8677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217438585, "dur":85889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217524483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217524495, "dur":29407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217553959, "dur":46825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217600789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217600798, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217604417, "dur":92407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217696833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217696844, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217698563, "dur":245476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217944052, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277217944071, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277217946340, "dur":85437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218031788, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218031803, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218033618, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218033808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218033820, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218037263, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218037406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218037462, "dur":4325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218041843, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218041975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218041984, "dur":8225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218050271, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218050578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218050591, "dur":8169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218058824, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218058999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218059009, "dur":7187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218066254, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218066419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218066428, "dur":7246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218073754, "dur":148945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218222707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686277218222718, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686277218227172, "dur":355482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277215947959, "dur":1240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277215949200, "dur":12132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277215961708, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686277215961934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277215964858, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686277215968999, "dur":24880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686277215993886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277215993900, "dur":9758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686277216003798, "dur":1275836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217279643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217279653, "dur":34521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217314243, "dur":101975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217416244, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217416275, "dur":8098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217424433, "dur":100633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217525072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217525081, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217527120, "dur":73531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217600660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217600672, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217604667, "dur":127181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217731857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217731869, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217733706, "dur":9041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217742759, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217742779, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217745073, "dur":197550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217942629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277217942640, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277217944828, "dur":65867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277218010704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277218010715, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277218012907, "dur":339625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277218352546, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686277218352568, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686277218354653, "dur":228016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277215948134, "dur":1092, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277215949226, "dur":12132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277215961749, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686277215961942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277215972471, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686277215973953, "dur":36447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686277216010448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277216010553, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686277216012810, "dur":170714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686277216183532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277216183542, "dur":4293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686277216187934, "dur":174432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277216362379, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277216362396, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277216364525, "dur":63344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277216427882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277216427892, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277216430660, "dur":71166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277216501838, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277216501851, "dur":103895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277216605809, "dur":444341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217050159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217050171, "dur":5713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217055939, "dur":54200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217110147, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217110160, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217112100, "dur":1745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217113853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217113864, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217116175, "dur":16582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217132764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217132775, "dur":4488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217137359, "dur":176719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217314084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217314093, "dur":8755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217322905, "dur":102811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217425725, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217425788, "dur":15405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217441250, "dur":128487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217569744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217569755, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217571599, "dur":316160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217887769, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277217887785, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277217889931, "dur":276273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277218166210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218166220, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686277218169238, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686277218169297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218169305, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686277218172391, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686277218172452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218172462, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686277218174974, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686277218175212, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218175226, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686277218178535, "dur":3864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686277218182409, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218182426, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686277218185247, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686277218185341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218185356, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686277218186972, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686277218187036, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218187053, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686277218188471, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686277218188533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218188541, "dur":12554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686277218201188, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686277218201260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686277218201267, "dur":5996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686277218207335, "dur":375377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277215947908, "dur":1273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277215949181, "dur":12198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277215961747, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686277215961944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277215973418, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686277215975255, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686277215975449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277215976122, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686277215980332, "dur":28973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686277216009312, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277216009325, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686277216011017, "dur":289084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686277216300106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277216300113, "dur":11186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686277216311359, "dur":79198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216390567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277216390580, "dur":8311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216398945, "dur":189900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216588868, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277216588899, "dur":50678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216639635, "dur":169732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216809375, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277216809421, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216811093, "dur":169437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216980540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277216980553, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277216984799, "dur":82696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217067500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217067510, "dur":6661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217074228, "dur":7683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217081920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217081931, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217083564, "dur":43365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217126937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217126949, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217129034, "dur":184698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217313743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217313755, "dur":9646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217323486, "dur":54677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217383001, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217383020, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217385110, "dur":47267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217432386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217432397, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217436570, "dur":39321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217475899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217475909, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217477906, "dur":38073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217515991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217516006, "dur":6102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217522172, "dur":308587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217830769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277217830779, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277217833878, "dur":175299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277218009189, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277218009204, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277218011549, "dur":2916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277218014478, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277218014497, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277218018466, "dur":177222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277218201307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686277218201316, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686277218204777, "dur":377950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277215948120, "dur":1090, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277215949211, "dur":12165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277215961748, "dur":29167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686277215990924, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277215990944, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686277215992782, "dur":341611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277216334401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277216334537, "dur":7442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277216342041, "dur":108137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277216450187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277216450199, "dur":30260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277216480524, "dur":91338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277216571869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277216571880, "dur":34055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277216605987, "dur":404471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217010463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217010472, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217012271, "dur":55077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217067355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217067369, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217069440, "dur":1893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217071342, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217071358, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217073782, "dur":3977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217077773, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217077792, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217079424, "dur":128528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217207960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217207971, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217210128, "dur":31387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217241523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217241534, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217243296, "dur":130775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217374080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217374091, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217376900, "dur":245910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217622818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217622829, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217624977, "dur":192036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217817021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217817083, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217819180, "dur":118223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217937412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217937425, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217939591, "dur":2715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217942315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277217942328, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277217944713, "dur":73087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218017810, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218017822, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218019552, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218019706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218019717, "dur":16752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218036533, "dur":3604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218040145, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218040157, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218042001, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218042132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218042139, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218047333, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218047487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218047496, "dur":8385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218055964, "dur":1061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218057032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218057044, "dur":4236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218061337, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218061504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218061514, "dur":5467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218067037, "dur":127122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218194169, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218194184, "dur":6978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686277218201234, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1686277218201435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686277218201441, "dur":6327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1686277218208052, "dur":374662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277215948188, "dur":1047, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277215949236, "dur":12141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277215961748, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686277215961947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277215973680, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686277215975587, "dur":37012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1686277216012610, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216012627, "dur":8626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1686277216021336, "dur":262558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216283901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216283911, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216285582, "dur":141060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216426650, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216426663, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216428160, "dur":68252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216496420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216501298, "dur":106036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216607393, "dur":65087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216672488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216672498, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216674240, "dur":113350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216787598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216787642, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216789752, "dur":158060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216947820, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277216947833, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277216949804, "dur":60323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217010135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217010146, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217012166, "dur":154628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217166803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217166818, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217169064, "dur":145851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217314921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217314930, "dur":9029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217324009, "dur":69871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217393888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217393899, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217395647, "dur":75834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217471489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217471501, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217473504, "dur":107397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217580908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217580920, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217582564, "dur":232952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217815524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217815536, "dur":65734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217881334, "dur":72947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217954289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277217954301, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277217956074, "dur":77207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218033288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218033300, "dur":8694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218042058, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218042186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218042195, "dur":7635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218049883, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218050021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218050030, "dur":7029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218057118, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218057265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218057271, "dur":9235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218066708, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218066841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218066849, "dur":80979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218147886, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218148036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218148046, "dur":14662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218162771, "dur":97042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218259821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686277218259833, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686277218261618, "dur":321054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277215948290, "dur":955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277215949246, "dur":12111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277215961709, "dur":45541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686277216007262, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277216007284, "dur":5800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686277216014352, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1686277216014586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277216015563, "dur":31150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1686277216049863, "dur":214547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216264417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277216264428, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216266301, "dur":98839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216365185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277216365196, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216367058, "dur":60236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216427300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277216427310, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216428791, "dur":239759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216668558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277216668569, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277216672614, "dur":642292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217314919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277217314930, "dur":18882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217333868, "dur":194628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217528503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277217528514, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217531722, "dur":109997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217641733, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277217641752, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217644203, "dur":72154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217716383, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277217716425, "dur":12070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277217728560, "dur":851686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277218580252, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686277218580261, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686277218582595, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1686277218582619, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277215948320, "dur":933, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277215949253, "dur":12077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277215961711, "dur":127090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1686277216088817, "dur":190, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277216097566, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1686277216100629, "dur":44683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216145343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277216146677, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216148995, "dur":57127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216206131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277216206639, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216208023, "dur":88972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216297003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277216297027, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216299392, "dur":301218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216600620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277216600634, "dur":44743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216645713, "dur":343369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216989095, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277216989117, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277216991843, "dur":80524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277217072378, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277217072404, "dur":6077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277217078546, "dur":350649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277217429204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277217429215, "dur":8348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277217437618, "dur":164532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277217602157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277217602167, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277217604683, "dur":434253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218038943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218038955, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218042125, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218042191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218042198, "dur":4168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218046432, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218046618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218046632, "dur":10331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218057027, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218057164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218057172, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218061860, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218062004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218062012, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218066789, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218066911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218066929, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218071365, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218071653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218071664, "dur":89114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218160854, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218161026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218161037, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686277218165305, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1686277218165786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218166322, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1686277218167741, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1686277218167802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218167909, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1686277218170473, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686277218170538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218170549, "dur":25018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686277218195631, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Bouncy Plane_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686277218200995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686277218201008, "dur":6360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Bouncy Plane_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686277218207428, "dur":375288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686277218592461, "dur":5417, "ph":"X", "name": "ProfilerWriteOutput" }
+,
